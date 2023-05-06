@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6441877006473884722}
   - component: {fileID: 2104732710330717520}
   - component: {fileID: -7131864963605435261}
+  - component: {fileID: 4557091559831395202}
   m_Layer: 8
   m_Name: Genji
   m_TagString: Player
@@ -90,6 +91,19 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 7b09d7a0d0afe424e9d0b75916819af1, type: 2}
+--- !u!65 &4557091559831395202
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4477529428358699759}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3, y: 2.1, z: 1.3}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &5719171286827008872
 GameObject:
   m_ObjectHideFlags: 0
